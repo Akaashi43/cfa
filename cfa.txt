@@ -1,0 +1,95 @@
+Practical 1: Creating a Forensic Image Using FTK Imager
+Theory: FTK Imager is a widely-used forensic tool for creating forensic images, verifying data integrity, and analyzing files. It supports capturing volatile memory and is essential for examining digital evidence in forensics investigations.
+
+Steps:
+
+1. Open FTK Imager.
+2. Go to File > Create Disk Image.
+3. Select the source as Content of the Folder, then provide necessary permissions.
+4. Browse and select the file for imaging.
+5. Add a destination to save the image.
+6. Enter the necessary evidence information.
+7. Choose the destination folder and filename for the image.
+8. Start the image creation process.
+9. Once completed, add the evidence item and select the created .ad1 file to analyze.
+10.Access files from the Evidence Tree pane.
+
+--------------------------------------------------------------------------------------------
+
+Practical 2: Analyzing a Memory Dump
+Theory: Memory forensics involves capturing and analyzing a computer’s memory to investigate incidents like malware attacks and insider threats. Tools like Volatility are used to extract volatile data such as running processes and network connections.
+
+Steps:
+
+1. Use Procmon64 from the Sysinternals Suite to monitor running processes.
+2. Use TcpView64 to analyze active network connections.
+3. Use Registry Editor to inspect registry configurations.
+
+--------------------------------------------------------------------------------------------
+
+Practical 3: Capturing and Analyzing Network Packets Using Wireshark
+Theory: Wireshark is a network traffic analyzer used for troubleshooting, analyzing network protocols, and identifying security threats. It captures real-time traffic and allows detailed packet analysis.
+
+Steps:
+
+1. Install and open Wireshark.
+2. Capture live network packets.
+3. Apply various display filters (e.g., by IP, protocol) to focus on specific traffic.
+4. Analyze the captured packets for details like server information and protocol behavior.
+
+--------------------------------------------------------------------------------------------
+
+Practical 4: Using Sysinternals Tools for Network Tracking and Process Monitoring
+Theory: The Sysinternals Suite provides tools to monitor, manage, and troubleshoot Windows systems. It includes utilities for tracking live processes, monitoring network activity, capturing RAM, and analyzing memory.
+
+Steps:
+
+1. Download and extract Sysinternals tools.
+2. Monitor live processes and system resources like TCP/UDP packets, RAM, hard disk, and cache memory.
+
+--------------------------------------------------------------------------------------------
+
+Practical 5: Recovering and Inspecting Deleted Files Using Autopsy
+Theory: Autopsy is a digital forensics tool that helps recover and inspect deleted files. It provides detailed reports of user activity, making it essential for investigating data breaches and insider threats.
+
+Steps:
+
+1. Install and open Autopsy.
+2. Create a new case, providing relevant case information.
+3. Add data sources for examination.
+4. Inspect and recover deleted files.
+5. Generate a forensic report.
+
+--------------------------------------------------------------------------------------------
+
+Practical 6: Steganography Detection
+Theory: Steganography hides information within digital media like images or text. Tools such as SteganPEG are used to detect and extract hidden content from files.
+
+Steps:
+
+1. Install and run SteganPEG.
+2. Embed or extract hidden files from a JPEG image using passwords.
+3. Save the extracted hidden data.
+
+--------------------------------------------------------------------------------------------
+
+Practical 7: Email Forensics Using FTK
+Theory: Email forensics involves analyzing email headers and content to trace suspicious emails and detect forgery. FTK provides capabilities for inspecting deleted emails and analyzing mailboxes.
+
+Steps:
+
+1. Install and open FTK.
+2. Start a new case and add the email data source.
+3. Analyze deleted and inbox emails using the Email tab.
+4. Export email evidence and generate a report.
+
+--------------------------------------------------------------------------------------------
+
+Practical 8: Web Browser Forensics
+Theory: Web browser forensics involves extracting and analyzing browser artifacts such as history, cache, cookies, and download records to reconstruct user browsing behavior. This is useful for tracking suspicious online activities.
+
+Steps:
+
+1. Install and run Browser History Examiner.
+2. Capture browsing history from the local computer.
+3. Analyze saved browser data, including history and cookies.
